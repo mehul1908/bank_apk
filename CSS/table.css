@@ -1,0 +1,20 @@
+table{
+    border-spacing: 0px;
+    vertical-align: middle;
+}
+table , tr {
+    border-bottom: 2px solid blue;
+    padding: 3px;
+
+}
+
+td , th , tr{
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+#tableBody>tr:nth-child(odd){
+    background-color: #1a53ff;
+    color: white;
+}

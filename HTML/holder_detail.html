@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <script src="../JavaScript/customer.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="container">
+        <h1>Holder Details</h1>
+        <form action="">
+            <h1 style="font-size: medium;">Enter the Account Number and Pin:</h1><br>
+            <label for="acno" class="col-form-label">Account No:</label>
+            <input type="number" name="acno" id="acno" class="form-control" readonly>
+
+            <label for="pin" class="col-form-label">Pin:</label>
+            <input type="password" name="pin" id="pin" class="form-control" required>
+
+            <input type="button" value="Show Detail" onclick="show_detail()" class="btn btn-dark" style="background-color: #00134d;">
+            <hr>
+            <label for="userName" class="col-form-label">Holder Name:</label>
+            <input type="text" id="userName" name="userName" class="form-control " readonly>
+
+            <label for="address" class="col-form-label">Address:</label>
+            <input type="text" id="address" name="address" class="form-control" readonly>
+
+            <label for="phNo" class="col-form-label">Phone Number:</label>
+            <input type="number" id="phNo" name="phNo" class="form-control" readonly>
+
+            <label for="bal" class="col-form-label"> Balance:</label>
+            <input type="number" id="bal" name="bal" class="form-control" readonly>
+        </form>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+
+</html>

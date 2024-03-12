@@ -1,0 +1,25 @@
+input {
+    margin: 10px;
+    
+}
+
+label{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+body {
+    background-color:white;
+    
+}
+
+
+
+h1 {
+    display: inline-block;
+
+    color: #00134d;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 4px solid #002699;
+}

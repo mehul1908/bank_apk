@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank</title>
+    <link rel="icon" type="image/x-con" href="./Picture/logo.png">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./JavaScript/customer.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <!--NAV BAR-->
+        <ul class="navbar">
+            <li class="nav-item dropdown"><a class="nav-link">Accounts</a>
+                <div class="dropdown-list">
+                    <a href="./HTML/holder_detail.html" class="dropdown-item" target="open_tab">Holder Detail</a>
+                    <a href="./HTML/update_detail.html" class="dropdown-item" target="open_tab">Update Detail</a>
+                    <a href="./HTML/chk_bal.html" class="dropdown-item" target="open_tab">Check Account Balance</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link">Transaction</a>
+                <div class="dropdown-list">
+                    <a href="./HTML/amt_deposit.html" class="dropdown-item" target="open_tab">Amount Deposit</a>
+                    <a href="./HTML/amt_withdraw.html" class="dropdown-item" target="open_tab">Amount Withdraw</a>
+                    <a href="./HTML/fund_transfer.html" class="dropdown-item" target="open_tab">Fund Transfer</a>
+                    <a href="./HTML/tran_hist.html" class="dropdown-item" target="open_tab">Transaction History</a>
+                    <a href="./HTML/fd.html" class="dropdown-item" target="open_tab">Fixed Deposit</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link">Loan</a>
+                <div class="dropdown-list">
+                    <a href="" class="dropdown-item" target="open_tab">Home Loan</a>
+                    <a href="" class="dropdown-item" target="open_tab">Gold Loan</a>
+                    <a href="" class="dropdown-item" target="open_tab">Personal Loan</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown"><a class="nav-link">Terms and Condition</a>
+                <div class="dropdown-list">
+                    <a href="./HTML/add_ac.html" class="dropdown-item" target="open_tab">Loans Terms</a>
+                    <a href="" class="dropdown-item" target="open_tab">Bank Rules</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown" style="margin: 0px;"><a class="nav-link" href=""><img src="./Picture/userLogo.png" class="userLogo"></a>
+                <div class="dropdown-list" style="width: 100px;">
+                    <ol style="list-style-type: none;" class="dropdown-item">
+                        <li class="dropdown-item"><a href="./HTML/LogInPage.html" style="text-decoration: none;color: inherit;" target="open_tab">Log In</a></li>
+                    </ol>
+                    <ol style="list-style-type: none;" class="dropdown-item">
+                        <li class="dropdown-item"><a nohref style="text-decoration: none;color: inherit;" target="open_tab" onclick="logOut()">Log Out</a></li>
+                    </ol>
+                </div>
+            </li>
+        </ul>
+        <br><br>
+        <iframe frameborder="0" name="open_tab" width="100%" height="550px" src="./HTML/LogInPage.html"></iframe>
+
+        <footer style="position: fixed;bottom: 0px;">
+            <marquee behavior="alternate" direction="">&copy;Mehul</marquee>
+        </footer>
+    </div>
+</body>
+
+</iframe>
+</html>
